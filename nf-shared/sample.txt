@@ -1,0 +1,4 @@
+NanoFiles P2P Network — Sample Shared File
+==========================================
+This file is located in the default shared folder (nf-shared) and is indexed
+via SHA-1 checksum upon peer startup.

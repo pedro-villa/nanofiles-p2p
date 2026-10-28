@@ -1,0 +1,34 @@
+# Compiled class files & build outputs
+target/
+bin/
+*.class
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Eclipse IDE
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Logs & temporary test artifacts
+*.log
+hs_err_pid*
+replay_pid*
+peermsg.bin
+nf-shared-*/
