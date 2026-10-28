@@ -186,5 +186,5 @@ Bye.
 
 ## Authors
 
-- **Marta Tomás**
+- **Marta Tomás** ([@MartaTR13](https://github.com/MartaTR13)) — collaborator
 - **Pedro Villa** ([@pedro-villa](https://github.com/pedro-villa))

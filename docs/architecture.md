@@ -94,3 +94,8 @@ stateDiagram-v2
    The background acceptor thread (`Thread(NFServer)`) blocks on `serverSocket.accept()`. For every incoming peer connection, it spawns an independent `NFServerThread` that executes `NFServerComm.serveFilesToClient(socket)`, enabling parallel file transfers to multiple downloading peers while keeping the interactive `NFShell` responsive.
 3. **Graceful Server Termination**:
    `NFServer.stopBackgroundServer()` is `synchronized`, sets `stopServer = true`, and closes `serverSocket` to immediately unblock the acceptor thread from `serverSocket.accept()`.
+
+## Collaborators
+
+- **Marta Tomás** ([@MartaTR13](https://github.com/MartaTR13))
+- **Pedro Villa** ([@pedro-villa](https://github.com/pedro-villa))

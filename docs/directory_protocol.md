@@ -84,3 +84,8 @@ For every request operation initiated by the client, the server responds with ei
 | 25 | `search` | Client $\to$ Dir | `operation:search\nsessionkey:<key>\nfilehash:<substr>\n\n` | Queries which peers are serving a file matching hash substring `<substr>`. |
 | 26 | `searchOK` | Dir $\to$ Client | `operation:searchOK\nnicks:<nick1>,<nick2>,...\n\n` | Returns comma-separated list of nicknames serving the matched file. |
 | 27 | `searchFail` | Dir $\to$ Client | `operation:searchFail\nerrormessage:<msg>\n\n` | No published file matches `<substr>`. |
+
+## Collaborators
+
+- **Marta Tomás** ([@MartaTR13](https://github.com/MartaTR13))
+- **Pedro Villa** ([@pedro-villa](https://github.com/pedro-villa))

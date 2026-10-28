@@ -113,3 +113,8 @@ Upon receiving a `SendFile` message, `NFConnector.downloadFile()`:
 1. Writes the $n$ payload bytes to the local destination file via `FileOutputStream`.
 2. Recomputes the 160-bit **SHA-1** digest over the written disk file using `FileDigest.computeFileChecksumString(file.getCanonicalPath())`.
 3. Compares the computed digest against the authoritative `FileHash` header received in the `SendFile` frame. Any mismatch flags corruption and rejects the transfer.
+
+## Collaborators
+
+- **Marta Tomás** ([@MartaTR13](https://github.com/MartaTR13))
+- **Pedro Villa** ([@pedro-villa](https://github.com/pedro-villa))
